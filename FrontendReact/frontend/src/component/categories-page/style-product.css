@@ -1,0 +1,46 @@
+@media (min-width: 990px) {
+  main {
+    padding-left: 240px;
+  }
+}
+
+.header {
+  left: 0;
+  top: 10;
+  right: 0;
+  position: relative;
+  padding: 12px;
+  text-align: center;
+  background: #fa7087;
+  color: white;
+}
+
+.card-img-top {
+  width: 50px;
+  height: 300px;
+}
+
+
+
+.header h1 {
+  font-size: 25px;
+}
+
+/* Sidebar */
+.sidebar {
+  background: linear-gradient(135deg, #fa7087, #fa7087);
+  background-color: #fa7087;
+  position: fixed;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  padding: 10px 10px 0px;
+  width: 240px;
+}
+
+.card {
+  max-width: 300px;
+  left: 10px;
+  top: 20px;
+  box-shadow: 0px 0px 10px rgba(3, 3, 3, 0.1);
+}
